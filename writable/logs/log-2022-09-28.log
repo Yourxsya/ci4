@@ -1,0 +1,10 @@
+CRITICAL - 2022-09-28 00:53:27 --> Invalid file: siswa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('siswa', [], true)
+ 3 APPPATH\Controllers\MenuController.php(17): view('siswa')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\MenuController->dataSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
